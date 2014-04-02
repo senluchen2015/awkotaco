@@ -6,6 +6,10 @@ body {
 	font-size: 18px;
 }
 
+ul {
+	list-style-type: none;
+}
+
 
 
 .topBar{
@@ -14,3 +18,12 @@ body {
 	width:100%;
 	
 }
+
+#friend-list li {
+	border: 1px solid #444;
+	margin-bottom: 10px;
+	font-size: 24px;
+	padding: 10px;
+	cursor: pointer;
+}
+
