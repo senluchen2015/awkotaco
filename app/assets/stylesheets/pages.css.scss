@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-	margin-bottom: 66px;
+	margin-bottom: 100px;
 	background-color: rgb(213, 204, 191);
 }
 
@@ -84,6 +84,9 @@ body{
 
 
 .btn-submit{
+	float: right;
+	margin: 0px;
+	border-radius: 0px;
 	background-color: rgb(229, 94, 74);
 	color: rgb(250, 194, 109);
 }
@@ -92,17 +95,40 @@ body{
 }
 
 .btn-submit-weekly{
-	
+	margin: 0px;
+	border-radius: 0px;
+	background-color: rgb(229, 94, 74);
+	color: rgb(250, 194, 109);
+}
+
+.btn-submit-weekly:hover{
+	color: rgb(226, 139, 8);
+}
+
+#weekly-challenge h3{
+	color: rgb(229, 94, 74);
+}
+
+.weekly-challenge-box{
+	background-color: #fff;
+	border: 2px solid rgb(229, 94, 74);
+}
+
+#daily-challenges h3{
+	color: rgb(229, 94, 74);
 }
 
 .challenge-box{
-	
+	height: 38px;
+	background-color: #fff;
+	border: 2px solid rgb(229, 94, 74);
+	margin-top: 4px;
 }
 
 .challenge-value{
-	font-size: 26px;
+	line-height: 38px;
 }
 
 .challenge-desc{
-	
+	line-height: 38px;
 }
