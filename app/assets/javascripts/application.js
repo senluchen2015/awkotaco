@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-	function loadVideo(){
+window.onload=	function loadVideo(){
 		var videoArray = ['HgEoCmHeAsc','DDJENFzOQl8','4i_GFrlaStQ'];
 		var videoUploader = ['abc','bcd','bdcd'];
 		var videoName = ['test','test2','test3'];
@@ -30,4 +30,7 @@
 		}
 
 		document.getElementById("videoList").innerHTML = html;
-	}
+}
+
+
+  window.onunload = function(){};
