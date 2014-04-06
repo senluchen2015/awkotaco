@@ -2,12 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.top-nav{
+	background-color: rgb(229, 94, 74);
+}
+
+.nav-home img{
+	padding: 10px 0px;
+	display: block;
+	margin: 0 auto;
+}
+
 .nav-btn{
-	margin: 10px;	
+	margin: 10px;
 }
 
 .nav-btns{
-	width: 260px;
+	width: 261px;
 	margin: 0 auto;	
 }
 
@@ -20,8 +30,10 @@
 	padding: 5px 0px;
 }
 
-ul {
-	list-style-type: none;
+ul{
+	list-style-type: none !important;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 
@@ -47,6 +59,7 @@ ul {
 	cursor: pointer;
 }
 
+
 body{
 	background: rgb(213,204,191);
 }
@@ -55,11 +68,6 @@ body{
     padding-top: 0px;
   }
 
-  .container{
-  	padding-left:0px;
-  	padding-right:0px;
-  }
 
 }
-
 
