@@ -14,3 +14,16 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+	function loadVideo(){
+		var videoArray = ['HgEoCmHeAsc','DDJENFzOQl8'];
+		var html='';
+		for(i=0;i<videoArray.length;i++){
+
+			html = html + '<div class="video"> <iframe id="ytplayer" type="text/html" width="80%" height="360" src="https://www.youtube.com/embed/' 
+			+ videoArray[i] + '"frameborder="0" allowfullscreen></iframe></div>'; 
+		
+		}
+
+		document.getElementById("videoList").innerHTML = html;
+	}
