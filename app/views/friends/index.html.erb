@@ -2,7 +2,7 @@
 	<div class="top-bar">
 		 <a href="homepage"><%= image_tag("awkotaco_logo.png", :class =>"logo") %></a>
 
-		<div class="top-text">Friends</div>
+		<div class="top-text frnz">Friends</div>
 	    <%= image_tag("icon_nav02_sm.png",:class=>"nav-btn") %>		
 	</div>
 
@@ -47,8 +47,8 @@
 			$("#friend-list").click(function() {
 				$("#friend-list").hide();
 				$("#mark").css("display", "block");
-				$("#frnz").text("Mark Brisske");
-				$("#frnz-mark").append('<br><%= image_tag "brisk.jpg" %>');
+				
+				$("#frnz-mark").append('<h3>Mark Brisske</h3><br><%= image_tag "brisk.jpg" %>');
 				str = "<br><div style='text-align: left;'><b>Recent achievements:</b><br>"
 				str += "<ul><li>3 is a party</li><li>King of the castle</li><li>Starbucks aficianado</li></ul></div>"
 				$("#frnz-mark").append("<br>" + str);
