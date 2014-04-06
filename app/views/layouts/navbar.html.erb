@@ -1,5 +1,6 @@
 
-
+<% if current_page?('/') %>
+<% else %>
 <div class="navbar-center" role="navigation">
 	<div class="nav-btns">
 		<% if current_page?('/challenges') %>
@@ -21,3 +22,4 @@
 		<% end %>
 	</div>
 </div>
+<% end %>
