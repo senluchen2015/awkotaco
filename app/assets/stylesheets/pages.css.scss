@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body{
+	margin-bottom: 66px;
+	background-color: rgb(213, 204, 191);
+}
+
 .top-nav{
 	background-color: rgb(229, 94, 74);
 }
@@ -69,3 +74,27 @@ body{
 
 }
 
+
+.btn-submit{
+	background-color: rgb(229, 94, 74);
+	color: rgb(250, 194, 109);
+}
+.btn-submit:hover{
+	color: rgb(226, 139, 8);
+}
+
+.btn-submit-weekly{
+	
+}
+
+.challenge-box{
+	
+}
+
+.challenge-value{
+	font-size: 26px;
+}
+
+.challenge-desc{
+	
+}

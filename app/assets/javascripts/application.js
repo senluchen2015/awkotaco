@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-window.onload=	function loadVideo(){
+window.onload=	function(){
 		var videoArray = ['HgEoCmHeAsc','DDJENFzOQl8','4i_GFrlaStQ'];
 		var videoUploader = ['abc','bcd','bdcd'];
 		var videoName = ['test','test2','test3'];
@@ -24,13 +24,10 @@ window.onload=	function loadVideo(){
 
 			html = html + '<div class="videoBlock"> <iframe class="video" id="ytplayer" type="text/html" width="100%" height="250" src="https://www.youtube.com/embed/' 
 			+ videoArray[i] + '"frameborder="0" allowfullscreen></iframe>'+
-			'<div class="videoText">' + videoName[i] + ', ' + videoUploader[i] + '</div></div>';
+			'<div class="videoText">' + videoName[i] + '  -  ' + videoUploader[i] + '</div></div>';
 
 		
 		}
 
 		document.getElementById("videoList").innerHTML = html;
-}
-
-
-  window.onunload = function(){};
+};
