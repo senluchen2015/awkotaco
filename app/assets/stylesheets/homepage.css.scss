@@ -1,3 +1,51 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.profile{
+	width:100%;
+}
+
+.profilePicture{
+	position:relative;
+	padding-left:15px;
+	height:30%;
+	width:30%;
+	float:left;
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+}
+
+.profileName{
+	position:relative;
+	padding-top:25%;
+	font-size:30px;
+	width:67%;	
+	float:right;
+}
+
+embed-container {    
+    position: relative;    
+    padding-bottom: 56.25%; /* 16/9 ratio */   
+    padding-top: 30px; /* IE6 workaround*/   
+    height: 0;    
+    overflow: hidden;
+}
+ 
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {    
+
+    width: 100%;    
+}

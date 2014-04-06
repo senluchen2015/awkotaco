@@ -2,11 +2,37 @@
 <head>
 	<title>AwkoTaco</title>
 	
+<script>
+	window.onload=function loadVideo(){
+		alert("hi");
+		var videoArray = ['RWrD_edzR6I','DDJENFzOQl8'];
+		var html;
+		for(i=0;i<videoArray.length;i++){
+
+			html = html + '<iframe id="ytplayer" type="text/html" width="640" height="360"
+			src="https://www.youtube.com/embed/' + videoArray[i] + '"
+			frameborder="0" allowfullscreen>'; 
+		
+		}
+		document.getElementById("videoList").innerHTML = html;
+	}
+</script>
 </head>
 <body>
 	<div class="topBar">
 		AwkoTaco	
 	</div>
+	<div class="profile">
+		<img class="profilePicture" src="http://graph.facebook.com/664457128/picture?type=large"/>
+		<div class="profileName">
+			Jatin Pandey
+		</div>
+	</div>
+
+	<div id="videoList">
+
+    </div>
 
 </body>
+
 </html>
