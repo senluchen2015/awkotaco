@@ -2,6 +2,9 @@
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3 col-xs-12">
 				<h1 class="text-center" id="frnz">Friends</h1>
+				<div id="frnz-mark">
+					
+				</div>
 
 				<div id="friend-list">
 					<br>
@@ -26,10 +29,6 @@
 						<li>Tri Vo</li>
 					</ul>
 				</div>
-				
-				<div id="mark" style="display: none;">
-					<p>Mark Brisske has uploaded so much weird shit that I think he is a ballsy motherfucker</p>
-				</div>
 			
 			</div>
 			
@@ -43,10 +42,10 @@
 				$("#friend-list").hide();
 				$("#mark").css("display", "block");
 				$("#frnz").text("Mark Brisske");
-				$("#frnz").append('<br><%= image_tag "brisk.jpg" %>');
+				$("#frnz-mark").append('<br><%= image_tag "brisk.jpg" %>');
 				str = "<br><b>Recent achievements:</b><br>"
-				str += "<ul><li>Social</li><li>Cunt</li><li>Ballsy mofo</li></ul>"
-				$("#frnz").append("<br><b>Recent achievements:</b><br>");
+				str += "<ul><li>3 is a party</li><li>King of the castle</li><li>Starbucks aficianado</li></ul>"
+				$("#frnz-mark").append("<br>" + str);
 				
 			});
 		});
