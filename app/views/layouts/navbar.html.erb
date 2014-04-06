@@ -1,9 +1,23 @@
 
 
 <div class="navbar-center" role="navigation">
-  <div class="nav-btns">
-    <a href="challenges" class="nav-btn"><%= image_tag "icon_nav01.png" %></a>
-    <a href="friends" class="nav-btn"><%= image_tag "icon_nav02.png" %></a>
-    <a href="rankings" class="nav-btn"><%= image_tag "icon_nav03.png" %></a>
-  </div>
+	<div class="nav-btns">
+		<% if current_page?('/challenges') %>
+		<a href="challenges" class="nav-btn"><%= image_tag "icon_nav01_select.png" %></a>
+		<% else %>
+		<a href="challenges" class="nav-btn"><%= image_tag "icon_nav01.png" %></a>
+		<% end %>
+
+		<% if current_page?('/friends') %>
+		<a href="friends" class="nav-btn"><%= image_tag "icon_nav02_select.png" %></a>
+		<% else %>
+		<a href="friends" class="nav-btn"><%= image_tag "icon_nav02.png" %></a>
+		<% end %>
+
+		<% if current_page?('/rankings') %>
+		<a href="rankings" class="nav-btn"><%= image_tag "icon_nav03_select.png" %></a>
+		<% else %>
+		<a href="rankings" class="nav-btn"><%= image_tag "icon_nav03.png" %></a>
+		<% end %>
+	</div>
 </div>
