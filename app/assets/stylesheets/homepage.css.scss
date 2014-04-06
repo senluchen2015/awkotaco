@@ -35,17 +35,6 @@
 	float:right;
 }
 
-embed-container {    
-    position: relative;    
-    padding-bottom: 56.25%; /* 16/9 ratio */   
-    padding-top: 30px; /* IE6 workaround*/   
-    height: 0;    
-    overflow: hidden;
-}
- 
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {    
-
-    width: 100%;    
+.videoText{
+	font-size:24px;
 }
