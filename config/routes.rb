@@ -13,6 +13,8 @@ Jokes::Application.routes.draw do
 
    resources :rankings
 
+   resources :login
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
