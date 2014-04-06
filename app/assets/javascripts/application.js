@@ -15,19 +15,19 @@
 //= require turbolinks
 //= require_tree .
 
-window.onload=	function(){
-		var videoArray = ['HgEoCmHeAsc','DDJENFzOQl8','4i_GFrlaStQ'];
-		var videoUploader = ['abc','bcd','bdcd'];
-		var videoName = ['test','test2','test3'];
-		var html='';
-		for(i=0;i<videoArray.length;i++){
+// window.onload=	function(){
+// 		var videoArray = ['HgEoCmHeAsc','DDJENFzOQl8','4i_GFrlaStQ'];
+// 		var videoUploader = ['abc','bcd','bdcd'];
+// 		var videoName = ['test','test2','test3'];
+// 		var html='';
+// 		for(i=0;i<videoArray.length;i++){
 
-			html = html + '<div class="videoBlock"> <iframe class="video" id="ytplayer" type="text/html" width="100%" height="250" src="https://www.youtube.com/embed/' 
-			+ videoArray[i] + '"frameborder="0" allowfullscreen></iframe>'+
-			'<div class="videoText">' + videoName[i] + '  -  ' + videoUploader[i] + '</div></div>';
+// 			html = html + '<div class="videoBlock"> <iframe class="video" id="ytplayer" type="text/html" width="100%" height="250" src="https://www.youtube.com/embed/' 
+// 			+ videoArray[i] + '"frameborder="0" allowfullscreen></iframe>'+
+// 			'<div class="videoText">' + videoName[i] + '  -  ' + videoUploader[i] + '</div></div>';
 
 		
-		}
+// 		}
 
-		document.getElementById("videoList").innerHTML = html;
-};
+// 		document.getElementById("videoList").innerHTML = html;
+// };
