@@ -2,6 +2,24 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.nav-btn{
+	margin: 10px;	
+}
+
+.nav-btns{
+	width: 260px;
+	margin: 0 auto;	
+}
+
+.navbar-center{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #efefef;
+	z-index: 1030;
+	padding: 5px 0px;
+}
+
 ul {
 	list-style-type: none;
 }
