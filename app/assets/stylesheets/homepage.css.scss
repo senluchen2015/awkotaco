@@ -1,3 +1,40 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.row{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.profile{
+	width:100%;
+}
+
+.profilePicture{
+	position:relative;
+	height:30%;
+	width:30%;
+	float:left;
+	border-style:solid;
+	border-width:5px;
+	border-color:white;
+}
+
+.profileName{
+	position:relative;
+	font-size:25px;
+	width:65%;	
+	float:right;
+}
+
+.videoText{
+	font-weight:bold;
+	font-size:24px;
+	background:white;
+}

@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body{
-	margin-bottom: 66px;
+	margin-bottom: 100px;
 	background-color: rgb(213, 204, 191);
 }
 
@@ -26,6 +26,30 @@ body{
 	margin: 0 auto;	
 }
 
+.nav-btn:active{
+	opacicty:.8;
+}	
+
+.ranking-video {
+	margin-bottom: 20px;
+}
+
+#frnz-mark {
+	text-align: center;
+}
+
+#fb-login {
+	margin: 30px 0px;
+}
+
+button {
+	border-radius: 5px;
+}
+
+#login-container {
+	text-align: center;
+}
+
 .navbar-center{
 	width: 100%;
 	position: fixed;
@@ -41,6 +65,15 @@ ul{
 	padding-left: 0px;
 }
 
+
+.topBar{
+	color:rgb(250,194,109);
+	background: rgb(229,94,74);
+	width:100%;
+	font-size: 12em;
+	text-align:center;
+}
+
 #friend-list li {
 	border: 1px solid #444;
 	margin-bottom: 10px;
@@ -49,7 +82,23 @@ ul{
 	cursor: pointer;
 }
 
+
+body{
+	background: rgb(213,204,191);
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+
+
+}
+
+
 .btn-submit{
+	float: right;
+	margin: 0px;
+	border-radius: 0px;
 	background-color: rgb(229, 94, 74);
 	color: rgb(250, 194, 109);
 }
@@ -58,17 +107,40 @@ ul{
 }
 
 .btn-submit-weekly{
-	
+	margin: 0px;
+	border-radius: 0px;
+	background-color: rgb(229, 94, 74);
+	color: rgb(250, 194, 109);
+}
+
+.btn-submit-weekly:hover{
+	color: rgb(226, 139, 8);
+}
+
+#weekly-challenge h3{
+	color: rgb(229, 94, 74);
+}
+
+.weekly-challenge-box{
+	background-color: #fff;
+	border: 2px solid rgb(229, 94, 74);
+}
+
+#daily-challenges h3{
+	color: rgb(229, 94, 74);
 }
 
 .challenge-box{
-	
+	height: 38px;
+	background-color: #fff;
+	border: 2px solid rgb(229, 94, 74);
+	margin-top: 4px;
 }
 
 .challenge-value{
-	font-size: 26px;
+	line-height: 38px;
 }
 
 .challenge-desc{
-	
+	line-height: 38px;
 }

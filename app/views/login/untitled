@@ -9,16 +9,12 @@
 			<h1></h1>
 			<div class="ranking-video">
 				<iframe width="100%" height="250"
-					src="https://www.youtube.com/embed/A19qW6U-Rcw "frameborder="0" allowfullscreen>
+					src="https://www.youtube.com/embed/A19qW6U-Rcw">
 				</iframe>
-
-				<div class="bottomText">
-					<img class="profilePic" src="http://graph.facebook.com/549193640/picture?type=large"/>
-				</div>
 			</div>
 			<div class="ranking-video">
 				<iframe width="100%" height="250"
-					src="https://www.youtube.com/embed/A19qW6U-Rcw" frameborder="0" allowfullscreen>
+					src="https://www.youtube.com/embed/A19qW6U-Rcw">
 				</iframe>
 			<div class="ranking-video">
 		</div>
