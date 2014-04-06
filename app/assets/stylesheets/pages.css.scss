@@ -191,7 +191,8 @@ body{
 }
 .videoText{
 	margin-top: -5px;
-	padding: 0px 15px;
+	padding: 10px 15px;
+	color: #333;
 }
 
 .feed_like{
@@ -200,6 +201,10 @@ body{
 	margin: 10px 0px;
 	padding: 0px 15px;
 	color: rgb(229, 94, 74);
+}
+
+.feed_like img{
+	padding: 0px 5px;
 }
 
 .feed_like p{
